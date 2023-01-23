@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+    margin-top: 50px;
+}
+
+input[type="text"], input[type="email"] {
+    margin-bottom: 15px;
+    height: 40px;
+    width: 27rem;
+    text-indent: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    display: block;
+}
+
+
+textarea {
+    margin-bottom: 15px;
+    width: 27rem;
+    height: 5rem;
+    border: 1px solid #444;
+    border-radius: 5px;
+    display: block;
+    padding-left: 10px;
+}
+
+input[type="checkbox"] {
+    margin-top: 20px;
+    margin-right: 1.5rem;
+
+}
+
+fieldset {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  margin-top: 20px;
+}
+
+input[type="radio"] {
+    margin: 5px;
+}
+
+.label-radio {
+    padding-top: 12px;
+}
+
+hr {
+    height: 15px;
+    margin-top: 16px;
+    margin-left: 20px;
+    
+}
+
+button {
+    margin-top: 25px;
+    height: 2rem;
+    width: 10rem;
+    font-size: 20px;
+}

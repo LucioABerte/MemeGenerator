@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+main {
+  padding: 2rem;
+}
+/* Header Component Styling */
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  padding: 20px;
+
+}
+
+.header-image {
+  height: 60%;
+  margin-right: 1rem;
+
+}
+
+.header-title {
+  font-size: 1.5rem;
+  margin-right: auto;
+}
+
+.header-project {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Meme Component Styling (Meme) */ 
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form-input{
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #802ea0;
+  text-indent: 5px;
+}
+.form-button {  
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #802ea0;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: white;
+  cursor: pointer;
+}
+
+/*Image Meme Generator */ 
+
+.meme-img {
+  margin-top: 2em;
+  max-width: 100%;
+  border-radius: 3px;
+}
+/* Text Meme Generator */ 
+
+.meme {
+  position: relative;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+  
+}
+
+.top {
+  top: 2rem;
+}
+
+
+/* State Component Styles */
+
+.state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25em;
+}
+
+.state--title {
+  text-align: center;
+}
+
+.state--value {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #262626;
+}
+
+/* Counter Component Styles */ 
+
+.counter {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 35%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.counter > button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: #737373;
+  color: #D9D9D9;
+  font-size: 1.5rem;
+}
+
+.counter > button:hover {
+  background-color: #404040;
+  color: #D9D9D9;
+}
+
+.counter > button:focus {
+  outline: none;
+}
+
+.counter--count {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #262626;
+}
+
+.counter--plus {
+  margin-left: -20px;
+}
+
+.counter--minus {
+  margin-right: -20px;
+  z-index: 1;
+}
+
+
+/* Card Components Styling */ 
+
+.card {
+  margin-left: 8em;
+  width: 200px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: 350px;
+  box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+  -webkit-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+  -moz-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+}
+
+.card--image {
+  width: 50%;
+  padding: 10%;
+  padding-bottom: 0;
+}
+
+.card--name {
+  margin-block: 13px;
+  color: #d6d6d6;
+}
+
+.card--info {
+  padding: 10px;
+}
+
+.card--favorite {
+  width: 20px;
+  margin-left: -8em;
+  cursor: pointer;
+}
+
+.card--contact {
+  font-size: 0.75rem;
+  color: gray;
+  margin-block: 7px;
+}
